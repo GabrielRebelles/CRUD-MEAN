@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const uri = "mongodb+srv://userCurso:nRNDvZ0JC3dExdxF@clustercurso.rzdeb.gcp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "Your URL";
 mongoose
     .connect(uri, {
         useUnifiedTopology: true,
